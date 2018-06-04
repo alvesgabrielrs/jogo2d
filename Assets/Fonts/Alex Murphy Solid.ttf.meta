@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ca5f1c5c0fb9e4d468badacdb96b44fa
+timeCreated: 1528120946
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Alex Murphy Solid
+  fontNames:
+  - Alex Murphy Solid
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
