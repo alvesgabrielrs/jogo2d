@@ -13890,7 +13890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalSpeed: 5
-  jumpSpeed: 600
+  jumpSpeed: 550
   feet: {fileID: 1517809593}
   feetWidth: 0.5
   feetHeight: 0.1
@@ -13898,3 +13898,5 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
+  canDoubleJump: 0
+  delayForDoubleJump: 0.2
