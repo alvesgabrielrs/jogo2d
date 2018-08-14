@@ -39,6 +39,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4690966410796336}
+  - component: {fileID: 50168896306855764}
+  - component: {fileID: 68805596097240982}
+  - component: {fileID: 114888597042341694}
   m_Layer: 13
   m_Name: Feet
   m_TagString: Untagged
@@ -67,8 +70,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932773925366470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05800001, y: -0.59000015, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.05800001, y: -0.601, z: 0}
+  m_LocalScale: {x: 1, y: 0.6124997, z: 1}
   m_Children: []
   m_Father: {fileID: 4671032783226150}
   m_RootOrder: 0
@@ -93,6 +96,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!50 &50168896306855764
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932773925366470}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61152556841743868
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -118,6 +141,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.68199635, y: 1.1538386}
   m_EdgeRadius: 0
+--- !u!68 &68805596097240982
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932773925366470}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.33085313, y: 0.005638361}
+  - {x: 0.34019276, y: 0.008457363}
 --- !u!95 &95915573680207308
 Animator:
   serializedVersion: 3
@@ -157,6 +197,17 @@ MonoBehaviour:
     m_Bits: 512
   canDoubleJump: 0
   delayForDoubleJump: 0.2
+--- !u!114 &114888597042341694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932773925366470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210929dd89f5647bf781ce5eb54625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212426307708340318
 SpriteRenderer:
   m_ObjectHideFlags: 1
