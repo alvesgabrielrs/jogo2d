@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
-	public AudioManager instance;
+	public static AudioManager instance;
 	public AudioSFX audioSFX;
 	public AudioPlayer audioPlayer;
 
@@ -12,12 +12,6 @@ public class AudioManager : MonoBehaviour {
 		if (instance == null){
 			instance = this;
 		}
-	}
-	void Start () {
-		
-	}
-	void Update () {
-		
 	}
 
 	public void PlayCoinPickupSound(GameObject obj){
