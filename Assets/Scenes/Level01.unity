@@ -2503,7 +2503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1119202625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3478,7 +3478,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 559542126}
   playerPrefab: {fileID: 1242170810164498, guid: a83be20ba114dfe46b5c1f023dbce9b1,
     type: 2}
-  maxTime: 3
+  maxTime: 120
   ui:
     hud:
       txtCoinCount: {fileID: 906228174}
