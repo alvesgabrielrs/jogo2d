@@ -108,6 +108,7 @@ public class GM : MonoBehaviour {
 	}
 	
 	void GameOver(){
+		timerOn = false;
 		ui.gameOver.txtCoinCount.text = "COINS: " + data.coinCount;
 		ui.gameOver.txtTimer.text = "TIMER: " + timeLeft.ToString("F1");
 		ui.gameOver.gameOverPanel.SetActive(true);
@@ -115,5 +116,13 @@ public class GM : MonoBehaviour {
 
 	public void RespawnPlayer(){
 		Instantiate (playerPrefab, spawnPoint.position, spawnPoint.rotation);
+	}
+
+	public void LevelCompleted(){
+		Destroy(player.gameObject);
+		timerOn = false;
+		ui.levelCompleted.txtCoinCount.text = "COINS: " + data.coinCount;
+		ui.levelCompleted.txtTimer.text = "TIMER: " + timeLeft.ToString("F1");
+		ui.levelCompleted.levelCompletedPanel.SetActive(true);
 	}
 }
