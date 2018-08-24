@@ -991,7 +991,7 @@ Transform:
   - {fileID: 1577886175}
   - {fileID: 2061535931}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &491566319 stripped
 Transform:
@@ -2961,7 +2961,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4616009194934122, guid: b80df680e7a758e48a860070864ad46f, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b80df680e7a758e48a860070864ad46f, type: 2}
@@ -4323,6 +4323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yMinLive: -8
   timeToRespawn: 2
+  timeToKill: 1.5
   spawnPoint: {fileID: 559542126}
   playerPrefab: {fileID: 1242170810164498, guid: a83be20ba114dfe46b5c1f023dbce9b1,
     type: 2}
@@ -16458,6 +16459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSFX:
     coinPickup: {fileID: 8300000, guid: d6be1f494630dd7479bd1d115726e21a, type: 3}
+    fail: {fileID: 8300000, guid: cc2d5a94156974c4c8398cd6b3168a36, type: 3}
   audioPlayer:
     jump: {fileID: 8300000, guid: c7325492ff1928943802c4d784d26b64, type: 3}
 --- !u!1001 &2083210393
