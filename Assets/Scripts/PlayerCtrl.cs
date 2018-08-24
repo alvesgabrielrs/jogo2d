@@ -46,7 +46,7 @@ public class PlayerCtrl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (transform.position.y < GM.instance.yMinLIve){
+		if (transform.position.y < GM.instance.yMinLive){
 			GM.instance.KillPlayer();
 		}
 

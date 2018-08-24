@@ -7,7 +7,7 @@ public class GM : MonoBehaviour {
 
 	public static GM instance = null;
 
-	public float yMinLIve = -8f;
+	public float yMinLive = -8f;
 
 	PlayerCtrl player;
 
